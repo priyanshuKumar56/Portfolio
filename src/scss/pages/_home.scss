@@ -18,6 +18,11 @@
     filter: brightness(0.5);
     z-index: 1;
 }
+@media (max-width: 1168px) {
+  .banner_Image{
+    display: none;
+  }
+}
 .home__projects__project {
   position: relative;
 }
